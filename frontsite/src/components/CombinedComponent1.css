@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .cv-header {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

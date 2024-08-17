@@ -1,0 +1,119 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/assets/fondo.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Altura completa de la ventana */
+  font-family: Arial, sans-serif;
+  color: #333;
+  position: relative;
+}
+
+/* Botón de registro */
+.register-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #e68900;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px; /* Ajusta el tamaño según tus necesidades */
+}
+
+/* Contenedor del currículum */
+.curriculum-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.curriculum-container h1 {
+  color: #FFA500;
+  margin-bottom: 20px;
+}
+
+.curriculum-section {
+  margin-bottom: 30px;
+}
+
+.curriculum-section h2 {
+  border-bottom: 2px solid #FFA500;
+  padding-bottom: 5px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.curriculum-section p {
+  margin: 5px 0;
+}
+
+/* Columna derecha personalizada */
+.right-column {
+  background-color: #f5f5f5; /* Color de fondo personalizado */
+  padding: 20px;
+  border-radius: 8px;
+  overflow-y: auto; /* Para evitar cortes */
+}
+
+/* Diseño en dos columnas */
+.curriculum-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Ajustes responsivos */
+@media (max-width:608px) {
+  .curriculum-content {
+    grid-template-columns: 1fr; /* En pantallas pequeñas, una columna */
+  }
+
+  .register-button {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+  }
+}
+

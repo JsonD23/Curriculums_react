@@ -1,0 +1,42 @@
+.felicidades-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.template-selection {
+    margin-top: 20px;
+}
+
+.template-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.template-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.template-option:hover {
+    background-color: #f0f0f0;
+}
+
+.edit-cv-section {
+    margin-top: 30px;
+}
+
+.edit-cv-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-cv-button:hover {
+    background-color: #0056b3;
+}
