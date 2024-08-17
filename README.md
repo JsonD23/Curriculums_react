@@ -1,4 +1,5 @@
-Generador de CV Descripción del Proyecto Este proyecto es una aplicación web que permite a los usuarios crear y personalizar su currículum vitae (CV) de manera fácil e intuitiva. Los usuarios pueden ingresar su información personal, experiencia laboral, educación, habilidades y otros detalles relevantes. La aplicación genera un CV bien formado y listo para descargar en PDF o imprimir.
+#Generador de CV 
+Descripción del Proyecto Este proyecto es una aplicación web que permite a los usuarios crear y personalizar su currículum vitae (CV) de manera fácil e intuitiva. Los usuarios pueden ingresar su información personal, experiencia laboral, educación, habilidades y otros detalles relevantes. La aplicación genera un CV bien formado y listo para descargar en PDF o imprimir.
 
 Plan de Desarrollo del Proyecto Metodología Ágil Se sigue la metodología ágil, proporcionando flexibilidad y capacidad de adaptación ante los cambios, permitiendo una entrega continua de valor.
 
